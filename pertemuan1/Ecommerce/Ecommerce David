@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="handphone.jpg" alt="" width="50" height="44" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="#">MePhone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faqs">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="ROG.jpg" class="d-block w-100" weidth="400px" height="600px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Handphone</h5>
+          <p>Penjualan Handphone Gaming terbaik ada di sini</p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="BlackShark.jpg" class="d-block w-100" weidth="400px" height="600px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Attribut Handphone</h5>
+          <p>Attribut Handphone terbaik ada di sini</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Hpgaming.jpg" class="d-block w-100" weidth="400px" height="600px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dapatkan Diskon Besan-besaran</h5>
+          <p>Ayo buruan belanja dapatkan Diskon besar-besaran</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container px-4 px-lg-5 mt-5" id="faqs">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Product image-->
+                <img class="card-img-top" src="ROG 5s.gif"  alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">ROG 5s</h5>
+                        <!-- Product Price -->
+                        <p>Handphone khusus untuk bermain Game yang dikeluarkan oleh pihak ASUS dengan Kualitas terbaik
+                          dengan harga yang sangat terjangkau ditambah dengan beberapa Atribut HP tambahan yang menambah kepuasan pembeli.
+                        </p>
+                        <!-- Product price-->
+                       <br> Rp.7.000.000</br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Sale badge-->
+                <!-- Product image-->
+                <img class="card-img-top" src="Black Shark.gif"  height="270px" alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">Xiaomi BlackShark 4 Pro</h5>
+                        <p>Handphone Gaming khusus yang dikeluarkan oleh pihak Xiaomi dengan harga yang sangat terjangkau ditambah mendapatkan beberapa Attribut HP yang sangat menambah kepuasan pembeli</p>
+                        <!-- Product reviews-->
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                        </div>
+                        <!-- Product price-->
+                       <br> Rp.8.100.000<br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Sale badge-->
+                <!-- Product image-->
+                <img class="card-img-top" src="Nubia Red Magic.gif" height="270px" alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">Nubia Red Magic 7</h5>
+                        <p>Handphone Gaming dengan harga yang Mahal dengan kualitas device yang sangat memuaskan dengan jaringan 5G semua teratasi dan semua bisa diakses dengan mudah dan mendapatkan beberapa atribut tambahan </p>
+                        <!-- Product price-->
+                        <br>Rp.14.100.000</br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Product image-->
+                <img class="card-img-top" src="OnePlus10.gif" height="270px" alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">OnePlus 10 Pro</h5>
+                        <p>Handphone Gaming legend yang dipakai juke dalam Turnament memenangkan Turnament dengan mudah Handphone dengan Spek dewa dengan kecepatan yang sangat memukau dan memuaskan</p>
+                        <!-- Product reviews-->
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                        </div>
+                        <!-- Product price-->
+                        <br>Rp.15.200.000</br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Sale badge-->
+                <!-- Product image-->
+                <img class="card-img-top" src="Sades.gif" height="270px" alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">Headshet SADES SA-708</h5>
+                        <p>Headshet murah untuk kualitas musik jedag jedug atau BASS BOOSTED atau lagu anak EPEP dan juga lagu jedag jedug viral</p>
+                        <!-- Product price-->
+                        
+                       <br> Rp.291.000</br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Product image-->
+                <img class="card-img-top" src="Hunter Spider.gif" height="270px" alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">Headshet Hunter Spider</h5>
+                        <p>Headshet dengan kualitas yang sangat baik untuk bermain Game Jumscare atau game horor</p>
+                        <!-- Product price-->
+                        <br>Rp.620.000</br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Sale badge-->
+                <!-- Product image-->
+                <img class="card-img-top" src="quantum800.gif" height="270px" alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">Headshet Quantum800</h5>
+                        <p>Headshet dengan kualitas baik untuk mendengarkan Step musuh yang Walking walking di lorong mid dan juga bisa mendengarkan step dari jauh</p>
+                        <!-- Product reviews-->
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                        </div>
+                        <!-- Product price-->
+                        <br>Rp.1.400.000</br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Product image-->
+                <img class="card-img-top" src="samsung.gif" height="270px" alt="...">
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">Samsung Galaxy S22 Ultra</h5>
+                        <p>Hp keluaran dari samsung dengan spek gaming yang sangat baik dengan harga yang terjangkau</p>
+                        <!-- Product reviews-->
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                        </div>
+                        <!-- Product price-->
+                        <br>Rp.11.000.000</br>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+</body>
+</html>
