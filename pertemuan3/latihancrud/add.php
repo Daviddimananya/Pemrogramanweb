@@ -7,7 +7,7 @@
     <a href="index.php">Go to Home</a>
     <br/><br/>
 
-    <form action="add_process.php" method="post" name="form1">
+    <form action="add_process.php" method="POST" name="form1">
         <table width="25%" border="0">
             <tr>
                 <td>Name</td>

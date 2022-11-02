@@ -35,8 +35,8 @@ $result = mysqli_query($conn_db, $query);
                     <td> <?= $customer_data['created']?> </td>
                     <td> <?= $customer_data['updated']?> </td>
                     <td>
-                        <a href='edit.php?id=<?=$customer_data["id"]?>'>Edit</a> | <a href
-                        ='delete.php?id=<?$customer_data["id"]?>'>Delete</a>
+                        <a href='edit.php?id=<?=$customer_data["id"]?>'>Edit</a>  <a href
+                        ='delete.php?id=<?=$customer_data["id"]?>'>Delete</a>
                     </td>
                 </tr>
             <?php endwhile; ?>
